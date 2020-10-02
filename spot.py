@@ -6,11 +6,13 @@ import csv
 
 client=boto3.client('ec2',region_name='ap-south-1')
 
-prices=client.describe_spot_price_history(MaxResults=500,ProductDescriptions=['Linux/UNIX (Amazon VPC)'])
+prices=client.describe_spot_price_history(MaxResults=500,ProductDescriptions=['Linux/UNIX (Amazon VPC)'], AvailabilityZone='ap-south-1a')
 # mydata = json.dumps(prices.read())
 # pprint.pprint(prices['SpotPriceHistory'][:10]) 
 
 dic=prices['SpotPriceHistory']
+
+# print(dic[0])
 
 # az=(dic[1]['AvailabilityZone'])
 # spotprice=(dic[1]['SpotPrice'])
