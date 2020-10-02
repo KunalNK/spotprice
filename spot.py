@@ -29,7 +29,7 @@ with open('price.csv', 'w', newline='') as f:
         spotprice=elements['SpotPrice']
         
 
-        thewriter.writerow([az,spotprice,instaname])
+        thewriter.writerow([az,instaname,spotprice])
 
 
 
