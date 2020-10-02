@@ -22,7 +22,7 @@ dic=prices['SpotPriceHistory']
 
 with open('price.csv', 'w', newline='') as f:
     thewriter = csv.writer(f)
-    thewriter.writerow(['Instancename','Availabilityzone','Spotprice'])
+    thewriter.writerow(['Availabilityzone','Spotprice','Instancename'])
     for elements in dic:
         instaname=elements['InstanceType']
         az=elements['AvailabilityZone']

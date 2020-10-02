@@ -1,4 +1,11 @@
-Instancename,Availabilityzone,Spotprice
+Availabilityzone,Spotprice,Instancename
+ap-south-1c,0.114900,c5n.2xlarge
+ap-south-1b,0.438500,r3.8xlarge
+ap-south-1a,0.454200,m5d.8xlarge
+ap-south-1b,0.064300,r5a.xlarge
+ap-south-1b,0.706500,m5.12xlarge
+ap-south-1b,0.149700,r4.2xlarge
+ap-south-1b,0.134900,c5.2xlarge
 ap-south-1b,0.471400,r5.8xlarge
 ap-south-1b,0.860000,x1e.xlarge
 ap-south-1a,0.258000,x1e.xlarge
@@ -492,10 +499,3 @@ ap-south-1c,0.221800,m5a.4xlarge
 ap-south-1a,0.245100,m4.4xlarge
 ap-south-1b,0.251900,m5d.4xlarge
 ap-south-1a,0.501700,r5.8xlarge
-ap-south-1b,0.027100,m4.large
-ap-south-1b,0.165200,r5a.2xlarge
-ap-south-1b,0.003700,t3a.small
-ap-south-1c,0.003700,t3a.small
-ap-south-1a,0.003700,t3a.small
-ap-south-1c,1.743300,m5.24xlarge
-ap-south-1b,0.801900,x1e.2xlarge
