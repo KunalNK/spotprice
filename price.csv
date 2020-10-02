@@ -1,4 +1,4 @@
-Availabilityzone,Spotprice,Instancename
+Availabilityzone,Instancename,Spotprice
 ap-south-1c,0.114900,c5n.2xlarge
 ap-south-1b,0.438500,r3.8xlarge
 ap-south-1a,0.454200,m5d.8xlarge
