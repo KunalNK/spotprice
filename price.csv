@@ -1,4 +1,7 @@
-Availabilityzone,Instancename,Spotprice
+Availabilityzone,Instancename,Spotprice (USD)
+ap-south-1a,r5.xlarge,0.067000
+ap-south-1a,c5d.9xlarge,0.588400
+ap-south-1a,r5.8xlarge,0.490600
 ap-south-1c,i3en.3xlarge,0.476700
 ap-south-1b,r3.4xlarge,0.215400
 ap-south-1a,r3.4xlarge,0.234200
@@ -345,6 +348,3 @@ ap-south-1a,m4.large,0.029100
 ap-south-1a,m5ad.4xlarge,0.226700
 ap-south-1b,m5.12xlarge,0.711500
 ap-south-1a,c5.4xlarge,0.239300
-ap-south-1a,r5ad.2xlarge,0.124200
-ap-south-1b,c5.2xlarge,0.134600
-ap-south-1b,t2.small,0.007400
