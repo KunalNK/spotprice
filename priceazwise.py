@@ -20,7 +20,7 @@ dic=prices['SpotPriceHistory']
 # print(spotprice)
 # print(instaname)
 
-with open('price1.csv', 'w', newline='') as f:
+with open('azwise.csv', 'w', newline='') as f:
     thewriter = csv.writer(f)
     thewriter.writerow(['Instancename','Availabilityzone1a','Availabilityzone1b','Availabilityzone1c'])
     for elements in dic:
@@ -52,7 +52,7 @@ prices=client.describe_spot_price_history(StartTime=now,EndTime=now,InstanceType
 
 dic=prices['SpotPriceHistory']
 
-with open('price1.csv', 'w', newline='') as f:
+with open('azwise.csv', 'w', newline='') as f:
     thewriter = csv.writer(f)
     thewriter.writerow(['Instancename','Availabilityzone1a','Availabilityzone1b','Availabilityzone1c'])
     for elements in dic:
