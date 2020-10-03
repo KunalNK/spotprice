@@ -6,7 +6,7 @@ import csv
 from datetime import datetime
 client=boto3.client('ec2',region_name='ap-south-1')
 now = datetime.utcnow()
-prices=client.describe_spot_price_history(StartTime=now,EndTime=now,MaxResults=10,ProductDescriptions=['Linux/UNIX (Amazon VPC)'])
+prices=client.describe_spot_price_history(StartTime=now,EndTime=now,MaxResults=10,ProductDescriptions=['Linux/UNIX (Amazon VPC)'],AvailabilityZone='ap-south-1a')
 # mydata = json.dumps(prices.read())
 # pprint.pprint(prices['SpotPriceHistory'][:10]) 
 
@@ -31,7 +31,7 @@ with open('azwise1.csv', 'w', newline='') as f:
 
         # thewriter.writerow([instaname,spotprice1a])
 
-prices=client.describe_spot_price_history(StartTime=now,EndTime=now,MaxResults=10,ProductDescriptions=['Linux/UNIX (Amazon VPC)'])
+prices=client.describe_spot_price_history(StartTime=now,EndTime=now,MaxResults=10,ProductDescriptions=['Linux/UNIX (Amazon VPC)'],AvailabilityZone='ap-south-1b')
 # mydata = json.dumps(prices.read())
 # pprint.pprint(prices['SpotPriceHistory'][:10]) 
 
@@ -46,7 +46,7 @@ with open('azwise1.csv', 'w', newline='') as f:
         spotprice1b=elements['SpotPrice']
 
 
-prices=client.describe_spot_price_history(StartTime=now,EndTime=now,MaxResults=10,ProductDescriptions=['Linux/UNIX (Amazon VPC)'])
+prices=client.describe_spot_price_history(StartTime=now,EndTime=now,MaxResults=10,ProductDescriptions=['Linux/UNIX (Amazon VPC)'],AvailabilityZone='ap-south-1c')
 # mydata = json.dumps(prices.read())
 # pprint.pprint(prices['SpotPriceHistory'][:10]) 
 
