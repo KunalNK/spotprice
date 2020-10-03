@@ -22,7 +22,7 @@ dic=prices['SpotPriceHistory']
 
 with open('azwise1.csv', 'w', newline='') as f:
     thewriter = csv.writer(f)
-    thewriter.writerow(['Instancename','Availabilityzone1a','Availabilityzone1b','Availabilityzone1c','LowestPrice'])
+    thewriter.writerow(['Instancename','Availabilityzone1a(USD)','Availabilityzone1b(USD)','Availabilityzone1c(USD)','LowestPrice(USD)'])
     for elements in dic:
         instaname=elements['InstanceType']
         #az=elements['AvailabilityZone']
@@ -39,7 +39,7 @@ dic=prices['SpotPriceHistory']
 
 with open('azwise1.csv', 'w', newline='') as f:
     thewriter = csv.writer(f)
-    thewriter.writerow(['Instancename','Availabilityzone1a','Availabilityzone1b','Availabilityzone1c','LowestPrice'])
+    thewriter.writerow(['Instancename','Availabilityzone1a(USD)','Availabilityzone1b(USD)','Availabilityzone1c(USD)','LowestPrice(USD)'])
     for elements in dic:
         instaname=elements['InstanceType']
         #az=elements['AvailabilityZone']
@@ -54,7 +54,7 @@ dic=prices['SpotPriceHistory']
 
 with open('azwise1.csv', 'w', newline='') as f:
     thewriter = csv.writer(f)
-    thewriter.writerow(['Instancename','Availabilityzone1a','Availabilityzone1b','Availabilityzone1c','LowestPrice'])
+    thewriter.writerow(['Instancename','Availabilityzone1a(USD)','Availabilityzone1b(USD)','Availabilityzone1c(USD)','LowestPrice(USD)'])
     for elements in dic:
         instaname=elements['InstanceType']
         #az=elements['AvailabilityZone']
