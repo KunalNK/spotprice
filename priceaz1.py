@@ -60,6 +60,7 @@ with open('azwise1.csv', 'w', newline='') as f:
         #az=elements['AvailabilityZone']
         spotprice1c=elements['SpotPrice']
 
+        #To get the lowest value of spot instance
         data=[spotprice1a,spotprice1b,spotprice1c]
         print(data)
         lowestprice = min(float(sub) for sub in data) 
